@@ -703,6 +703,41 @@ h4 {
   color: #333;
 }
 
+@media (max-width: 800px) {
+  .
+  .
+  .
+  /* HEADER STYLES */
+  .
+  .
+  .
+  /* MOBILE MENU */
+  .show-mobile-menu {
+    display: block;
+    float: right;
+    font-weight: bold;
+    margin-top: 1.5vh;
+    padding: 1.5em;
+    position: relative;
+    text-transform: uppercase;
+  }
+  .header-nav {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .mobile-menu-check:checked ~ .header-nav {
+    max-height: 1000px;
+  }
+  .
+  .
+  .
+}
+
+
+
+
 /* HIDE IN THE FOOTER */
 .footer .dropdown:hover .drop-menu,
 .footer .drop-trigger:after {
@@ -710,16 +745,4 @@ h4 {
 }
 .footer .drop-trigger {
   padding-right: 0;
-}
-
-/* MOBILE MENU */
-.mobile-menu-check,
-.show-mobile-menu {
-  display: none;
-}
-
-@media (max-width: 800px) {
-  .
-  .
-  .
 }
