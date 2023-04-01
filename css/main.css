@@ -55,7 +55,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  font-family: helvetica, arial, sans;
+  font-family: 'Open Sans', helvetica, arial, sans;
   min-height: 100vh;
 }
 .content-container {
@@ -64,6 +64,12 @@ body {
   padding-top: 10vh;
   width: 100%;
 }
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', helvetica, sans;
+  font-weight: 100;
+}
+
 h1 {
   font-size: 7vw;
   margin-top: 0;
@@ -216,15 +222,15 @@ h4 {
   color: #fff;
   display: inline-block;
   font-family: helvetica, arial, sans;
-  font-size: 1rem;
+  font-size: 1.7em;
   font-weight: bold;
-  height: 2.5em;
+  height: 1.5em;
   line-height: 1;
-  padding-top: 0.85em;
+  padding-top: 0.25em;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  width: 2.5em;
+  width: 1.5em;
 }
 .social-list > li {
   display: inline-block;
@@ -299,6 +305,7 @@ h4 {
   margin: -40px 0 1em;
   text-align: center;
   text-transform: uppercase;
+  font-family: 'Rubik Moonrocks';
 }
 .bio-box img {
   width: 100%;
@@ -653,7 +660,7 @@ h4 {
     background-color: #444;
     box-sizing: border-box;
     left: 0;
-    max-height: 0;
+    /* max-height: 0; */
     overflow: hidden;
     padding: 0;
     position: absolute;
@@ -691,7 +698,7 @@ h4 {
   .mobile-menu-check:checked ~ .show-mobile-menu:after {
     background-color: #000;
     color: #ed6e2f;
-    content: "CLOSE";
+    content: "X";
     left: 0;
     position: absolute;
     text-align: center;
